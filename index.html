@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" media='screen' href='_css/style.css'>
+    <script src="validar.js"></script>
+
+</head>
+<body>
+    <h2>Formulário de Cadastro</h2>
+    <form action="#" method="post">
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="subject">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br>
+
+        <label for="confsenha">Confirmação de senha :</label><br>
+        <input type="password" id="confsenha" name="confsenha" required><br>
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+        
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" required><br>
+        
+        <label for="dtnasc">DataNasci:</label><br>
+        <input type="date" id="dtnasc" name="dtnasc" required><br>
+        
+        <label for="cpf">CPF:</label><br>
+        <input type="number" id="cpf" name="cpf" required><br>
+
+        <h2>Endereço</h2>
+        
+        <label for="cep">CEP:</label><br>
+        <input type="text" id="cep" name="cep" required><br>
+        
+        <label for="estado">Estado:</label><br>
+        <input type="text" id="estado"  name="estado" required><br>
+         
+        
+        <label for="cidade">Cidade:</label><br>
+        <input type="text" id="cidade" name="cidade" required><br>
+        
+        <label for="bairro">Bairro:</label><br>
+        <input type="text" id="bairro" name="bairro" required><br>
+        
+        <label for="rua">Rua:</label><br>
+        <input type="text" id="rua" name="rua" required><br>
+         
+        <label for="numcasa">Número da Casa:</label><br>
+        <input type="number" id="numcasa" name="numcasa" required><br>
+
+        <button onclick="Validar()">Entrar</button>
+    </form>
+</body>
+</html>
